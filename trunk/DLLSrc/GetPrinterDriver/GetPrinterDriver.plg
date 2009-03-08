@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GetPrinterDriver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/GetPrinterDriver.res" /d "NDEBUG" /d "_AFXDLL" "C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\GetPrinterDriver.rc"" 
+Creating temporary file "C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP38.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/GetPrinterDriver.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\Exports.cpp"
+"C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\GetPrinterDriver.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP38.tmp" 
+Creating temporary file "C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP39.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Release/" /Fp"Release/GetPrinterDriver.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP39.tmp" 
+Creating temporary file "C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP3A.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/GetPrinterDriver.pdb" /machine:I386 /def:".\GetPrinterDriver.def" /out:"Release/GetPrinterDriver.dll" /implib:"Release/GetPrinterDriver.lib" 
+".\Release\Exports.obj"
+".\Release\GetPrinterDriver.obj"
+".\Release\StdAfx.obj"
+".\Release\GetPrinterDriver.res"
+]
+Creating command line "link.exe @C:\DOKUME~1\JUN~1.IKO\LOKALE~1\Temp\RSP3A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Exports.cpp
+C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\Exports.cpp(149) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+C:\Programme\Microsoft Visual Studio\MyProjects\GetPrinterDriver\Exports.cpp(152) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+GetPrinterDriver.cpp
+Generating Code...
+Linking...
+   Creating library Release/GetPrinterDriver.lib and object Release/GetPrinterDriver.exp
+Creating command line "bscmake.exe /nologo /o"Release/GetPrinterDriver.bsc"  ".\Release\StdAfx.sbr" ".\Release\Exports.sbr" ".\Release\GetPrinterDriver.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GetPrinterDriver.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
