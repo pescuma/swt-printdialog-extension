@@ -4,13 +4,16 @@
     <options buildIfNeeded="true" compress="true" descriptionLocation="/SWTPrintDlgEx/exportToBin.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="true"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
-    <manifest generateManifest="true" manifestLocation="/SalesmanRanking/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
         <sealing sealJar="true">
             <packagesToSeal/>
             <packagesToUnSeal/>
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <javaElement handleIdentifier="=SWTPrintDlgEx/src"/>
+        <javaElement handleIdentifier="=SWTPrintDlgEx/src&lt;de.ikoffice"/>
+        <javaElement handleIdentifier="=SWTPrintDlgEx/src&lt;de.ikoffice.printing"/>
+        <javaElement handleIdentifier="=SWTPrintDlgEx/src&lt;de"/>
+        <javaElement handleIdentifier="=SWTPrintDlgEx/src&lt;de.ikoffice.printing.intern"/>
     </selectedElements>
 </jardesc>
